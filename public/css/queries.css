@@ -1,0 +1,183 @@
+ /* Use a media query to add a breakpoint at 800px: */
+     @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%;
+       /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  @media (max-width: 600px){
+    .carousel-inner {
+      height:500px;
+    }
+  }
+  @media (max-width: 480px) {
+    .carousel-inner{
+      height:267px;
+
+    }
+    .card-title{
+      text-align: left;
+    }
+
+ 
+
+    /* .card-body{
+      text-align: justify;
+    } */
+     .carousel-desc  {
+       /* position: absolute; */
+      /* top:45px; */
+      top:85px;
+      height:100px;
+      
+  }
+
+ 
+.intro{
+  padding:12px;
+  margin:12px;
+}
+
+.intro__description {
+  padding: 12px;
+  margin: 12px;
+}
+
+  .intro__image img {
+    height: 355px;
+    width:100%;
+    margin: 0px;
+    padding: 12px;
+    border: 1px solid rgb(216, 236, 222);
+}
+
+.img{
+  width:100%;
+  height: 300px;
+  padding:12px;
+}
+
+  .carousel-desc > h1{
+    font-size:25px;
+  }
+
+  .carousel-desc > h3{
+    font-size:16px;
+  }
+  .carousel-desc >p{
+    font-size:13px;
+  }
+  .feedback-carousel{
+    height:400px !important;
+   
+  }
+
+  .feedback-carousel > h3 {
+    font-size:16px;
+
+  }
+
+  .feedback-carousel > p{
+    font-size:13px;
+  }
+
+  .detail{
+    height:540px;
+    margin:auto;
+
+  
+  }
+
+  .detail-list{
+    padding:10px;
+    margin:auto;
+    width:370px;
+  }
+    }
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 400px) {
+    .bgimage-manufactor {
+        display: block;
+        margin: auto;
+        width: 43px;
+        height: 43px;
+        background-size: 92%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .spanarrival {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    .ftco-section button {
+        font-size: 10px;
+        font-family: unset;
+        font-weight: bold;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .bgimage-manufactor {
+        display: block;
+        margin: auto;
+        width: 80px;
+        height: 80px;
+        background-size: 92%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .spanarrival {
+        font-size: 10px;
+        font-weight: bold
+    }
+    .ftco-section button {
+        font-size: 10px;
+        font-family: serif;
+        font-weight: bold;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .bgimage-manufactor {
+        display: block;
+        margin: auto;
+        width: 110px;
+        height: 80px;
+        background-size: 92%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .spanarrival {
+        font-size: 20px;
+        font-weight: normal;
+    }
+    .ftco-section button {
+        font-size: 20px;
+        font-family: serif;
+        font-weight: bold;
+    }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+/* @media only screen and (min-width: 992px) {
+  .bgimage-manufactor {background: orange;}
+}  */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+/* @media only screen and (min-width: 1200px) {
+  .bgimage-manufactor {background: pink;}
+} */
+
+/* ----------------- */
+
+/* @media only screen and (max-width: 600px) {
+    div.bgimage-manufactor {
+      font-size: 30px;
+    }
+  } 
